@@ -91,7 +91,7 @@ $("#remove-tasks").on("click", function() {
   saveTasks();
 });
 
-// load tasks for the first time
+// load tasks for the first time call
 loadTasks();
 
 
