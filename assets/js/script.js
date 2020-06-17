@@ -152,16 +152,16 @@ $(".card .list-group").sortable({
   tolerance: "pointer",
   helper: "clone",
   activate: function(event) {
-   // console.log("activate", this);
+ 
   },
   deactivate: function(event) {
-    //console.log("deactivate", this);
+    
   },
   over: function(event) {
-    //console.log("over", event.target);
+   
   },
   out: function(event) {
-    //console.log("out", event.target);
+    
   },
 
   update: function(event) {
@@ -187,8 +187,7 @@ $(".card .list-group").sortable({
        });
     });
 
-   // console.log(tempArr);
-    // trim down list's ID to match object property
+      // trim down list's ID to match object property
     var arrName = $(this)
     .attr("id")
     .replace("list-", "");
@@ -197,15 +196,9 @@ $(".card .list-group").sortable({
      // update array on tasks object and save
      tasks[arrName] = tempArr;
       saveTasks();
-
   }
 
-
 });
-
-
-
-
 
 
 // dele a task used Drop Here to Remove
