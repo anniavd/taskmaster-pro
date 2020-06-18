@@ -232,6 +232,7 @@ $("#modalDueDate").datepicker({
 //to edit task with color if in past date or near
 
 var auditTask = function(taskEl) {
+  
   // get date from task element
   var date = $(taskEl).find("span").text().trim();
 
@@ -248,7 +249,16 @@ var auditTask = function(taskEl) {
   else if (Math.abs(moment().diff(time, "days")) <= 2) {
     $(taskEl).addClass("list-group-item-warning");
   }
+  
 };
+
+//automate run function to update the task
+
+setInterval(function () {
+  $(".card .list-group-item").each(function (el) {
+    auditTask(el);
+  });
+}, (1000 * 60) * 30);
 
 
 // modal was triggered
