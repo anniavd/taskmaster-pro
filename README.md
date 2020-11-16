@@ -14,7 +14,7 @@ Taskmaster-pro is a task management application. When adding tasks, the user wil
 
   _____________________________________________________________________
 
- ## Visit the site! [Taskinator](https://anniavd.github.io/taskinator/)
+ ## Visit the site! [TASKMASTER PRO](https://anniavd.github.io/taskmaster-pro/)
 
 
  
