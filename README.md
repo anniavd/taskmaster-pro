@@ -35,7 +35,7 @@ When a user create a task,need write a description and select a date.
  ![screenshot create task](/assets/images/create-task.jpg)
 
 
- Image the list of task with the example when  atask is near to the limited date.
+ Image the list of task with the example when  a task is near to the limited date.
 
  ![screenshot for home page](/assets/images/task.jpg)
 
