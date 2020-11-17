@@ -54,8 +54,7 @@ NONE
 
 # Technologies 
  - HTML5
- - css3
- - NODE
+ - CSS3 
 - JAVASCRIPT
 
 
